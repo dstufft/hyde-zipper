@@ -12,7 +12,7 @@ class GzipCompress(object):
 
             def visit_file(self, thefile):
                 file_content = thefile.read_all()
-                f = gzip.open('/home/joe/file.txt.gz', 'wb', self.level)
+                f = gzip.open('%s.gz' % (thefile.path,), 'wb', self.level)
                 f.write(file_content)
                 f.close()
 
