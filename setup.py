@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='hyde-zipper',
-version='0.0.2',
+version='0.0.3',
 description='gzip precompression as post processor',
 long_description=open('README.rst').read(),
 author='Donald von Stufft',
