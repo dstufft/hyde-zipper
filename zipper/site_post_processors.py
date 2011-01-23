@@ -17,7 +17,7 @@ class GzipCompress(object):
                 f.close()
 
 
-        filetypes = params.get('filetypes', ['*html', '*.css', '*.js', '*.xml'])
+        filetypes = params.get('filetypes', ['*html', '*.css', '*.js', '*.xml', '*.txt'])
         level = params.get('level', 9)
 
         for filetype in filetypes:

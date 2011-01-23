@@ -14,7 +14,7 @@ Install Post Processor::
     SITE_POST_PROCESSORS = {
         '/': {
             'zipper.site_post_processors.GzipCompress' : {
-                'filetypes': ['*html', '*.css', '*.js', '*.xml'],
+                'filetypes': ['*html', '*.css', '*.js', '*.xml', '*.txt'],
                 'level': 9,
             },
         }
